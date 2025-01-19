@@ -88,6 +88,8 @@ int main() {
             } else if (key == 'B'){
                 printf("Enviando código SOS...\n");
                 sinal(LED_VERMELHO);
+            } else if (key == '3'){
+                apagar_led(LED_VERDE);
             }
             else{
                 printf("Nenhuma funcionalidade foi atribuida a essa tecla\n");
